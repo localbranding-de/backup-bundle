@@ -1,0 +1,24 @@
+<button id="BackupButton"></button>
+<script>
+$('#BackupButton').on("click",function()
+{
+	
+
+    	    		 $.ajax({
+    		      dataType: 'json',
+    		      async: false,
+    			   url: window.location.href, 
+    			   type:'get',
+    			   data : { 
+    			   	'type' : 'doBackup',
+    			   },
+    		      success: function() {
+
+    		      },
+    		      error: function(e) {
+    		          console.log(e.responseText);
+    		      }
+    		   });
+});
+
+</script>

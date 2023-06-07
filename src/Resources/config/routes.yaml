@@ -1,0 +1,4 @@
+#  LocalbrandingDe/SiteTeamBundle/config/routes.yaml
+app.controller:
+    resource: ../../Controller
+    type: annotation
