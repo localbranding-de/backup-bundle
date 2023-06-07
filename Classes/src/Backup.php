@@ -88,13 +88,13 @@ class Backup {
         {
             exit;
         }
-        $host= "db3817.mydbserver.com";
+        $host= 
         $database_port=" 3306";
-        $user= "p535946d2";
-        $pass= "leoX_5524";
-        $dbname= "usr_p535946_2";
-        $tables = '*';
-        $cloudLink= new TeamFile();
+        $user= 
+        $pass= "
+        $dbname= 
+        $tables = 
+
         //Call the core function
 
             $link = mysqli_connect($host,$user,$pass, $dbname);
